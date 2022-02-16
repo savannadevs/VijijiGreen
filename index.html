@@ -17,7 +17,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="#">about</a>
+                    <a class="nav-link"  aria-current="page" href="#about">about</a>
                     <a class="nav-link" href="#projects">projects</a>
                     <a class="nav-link" href="#donate">donate</a>
                     <a class="nav-link" href="#team">team</a>
@@ -27,12 +27,18 @@
         </div>
     </nav>
     <div class="mb-1">
-        <div id="page-heading" class="ms-3 mt-5 mb-5">
-            <p class="text-start h1-lg mb-0 pb-0">Vijiji</p>
-            <p class="text-start h1-lg mt-0 pb-0">Green</p>
-            <img src="./assets/images/kiraro.jpeg" alt="Preparation of the nursery" width="600" height="400">
-                        
+        <div class="row">
+            <div class="column">
+                <div id="page-heading" class="ms-3 mt-5 mb-5">
+                    <p class="h1-lg mb-0 pb-0" id="heading">Vijiji</p>
+                    <p class="h1-lg mt-0 pb-0" id="heading">Green</p>     
+                </div> 
+            </div>
+            <div class="column">
+                <img src="./assets/images/Main.jpg" alt="Preparation of the nursery" width="600" height="350">
+            </div>
         </div>
+    </div>              
         <div id="about" class="my-7 mx-3 px-3 py-2 rounded border-0 page-section">
             <h1 class="mt-2 mb-3">who are we?</h1>
             <p>
@@ -100,8 +106,25 @@
                 <div class="image-wrapper my-5 mx-3 w-80 mx-auto rounded">
                     <div class="image-with-caption">
                         <img src="./assets/images/reuseNursery.jpg" alt="Seedlings" width="600" height="400">
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="Z2YA53TDK3Y9Y">
+                            <table>
+                            <tr><td><input type="hidden" name="on0" value="Donations">Support VijijiGreen</td></tr><tr><td><select name="os0">
+                                <option value="Option 1"> $5.00 USD</option>
+                                <option value="Option 2"> $10.00 USD</option>
+                                <option value="Option 3"> $25.00 USD</option>
+                                <option value="Option 4"> $50.00 USD</option>
+                                <option value="Option 5"> $100.00 USD</option>
+                                <option value="Option 6"> $500.00 USD</option>
+                            </select> </td></tr>
+                            </table>
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            </form>  
                     </div>
                 </div>
+                                  
             </div>
         </div>
         <div id="team" class="my-7 mx-3 px-3 py-2 page-section">
@@ -114,7 +137,7 @@
             </p>
         </div>
         <div id="contact" class="mt-7 mx-3 px-3 py-2 page-section">
-            <h1 class="mt-2 mb-3">get in touch, we're very chatty about vijiji green</h1>
+            <h1 class="mt-2 mb-3">get in touch, we're very chatty about VijijiGreen</h1>
             <div>
                 <div id="contact" class="col-12 col-md-7 col-xl-5 align-items-center text-center px-3 py-xl-4 mx-auto">
                     <form id="contact-form" data-toggle="validator" action="./contact/contact.php" role="form" method="POST">
