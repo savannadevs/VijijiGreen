@@ -26,14 +26,12 @@ body, body > *, .navbar-light {
 
 
 
-
-
 .page-section {
     background-color: #DCE7DC;
 }
 
 .send-button {
-	background-color: #6264e2;
+    background-color: #6264e2;
     color: white;
 }
 
@@ -47,64 +45,50 @@ body, body > *, .navbar-light {
     background-color: #ECAC8D;
 }
 
-div.image-with-caption img {
-    width: 100%;
-    height: 80%;
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
- /* Small devices (landscape phones, 576px and up) */
+#mainImage {
+    background-image: url(../assets/images/Main.jpg);
+    height: 500px;
+}
+
+#heading {
+    text-align: center;
+    text-justify: distribute;
+}
+
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .image-wrapper {
-        width: 24.9999%;
+    #mainImage {
+        height: initial;
+        width: 450px;
     }
 }
 
- /* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .image-wrapper {
-        width: 24.9999%;
+    #mainImage {
+        height: initial;
+        width: 650px;
     }
 }
 
- /* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .image-wrapper {
-        width: 24.9999%;
-    }
 }
 
- /* X-Large devices (large desktops, 1200px and up) */
+/* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .image-wrapper {
-        width: 24.9999%;
-    }
 }
 
- /* XX-Large devices (larger desktops, 1400px and up) */
+/* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .image-wrapper {
         width: 24.9999%;
     }
 }
-
-.column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  #mainImage {
-    width: 50%;
-  }
-
-  #heading {
-      text-align: center;
-      text-justify: distribute;
-  }
