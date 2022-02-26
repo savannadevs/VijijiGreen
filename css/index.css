@@ -2,32 +2,12 @@ body, body > *, .navbar-light {
     background-color: #EEF3EE;
 }
 
-/* BOOTSTRAP EXTENSIONS */
-.w-80 {
-    width: 80%;
-}
-
-.fs-8 {
-    font-size: small;
-}
-
-.h1-lg {
-    font-size: 5em;
-}
-
-.mt-7 {
-    margin-top: 7rem;
-}
-
-.my-7 {
-    margin-top: 7rem;
-    margin-bottom: 7rem;
-}
-
-
-
 .page-section {
     background-color: #DCE7DC;
+    text-align: center;
+    margin: 7rem .5rem;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
 }
 
 .send-button {
@@ -37,12 +17,6 @@ body, body > *, .navbar-light {
 
 #form_message {
     height: 300%;
-}
-
-/* IMAGE GALLERY */
-
-.image-wrapper {
-    background-color: #ECAC8D;
 }
 
 /* Clear floats after image containers */
@@ -55,40 +29,63 @@ body, body > *, .navbar-light {
 #mainImage {
     background-image: url(../assets/images/Main.jpg);
     height: 500px;
+    background-position: 40% 30%;
+    background-size: 170%;
+    background-repeat: no-repeat;
 }
 
-#heading {
-    text-align: center;
-    text-justify: distribute;
-}
+/* Border around project steps*/
+/* #projects > div {
+    border: solid black .1rem;
+    margin: 1.5rem .3rem;
+} */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    #mainImage {
-        height: initial;
-        width: 450px;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    #mainImage {
-        height: initial;
-        width: 650px;
+    .page-section {
+        margin: 7rem 1.25rem;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #mainImage {
+        height: 500px;
+    }
+
+    .page-section {
+        margin: 7rem 3.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-section {
+        margin: 7rem 4rem;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    #mainImage {
+        height: 90vh;
+    }
+
+    .page-section {
+        margin: 7rem 7rem;
+    }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
     .image-wrapper {
         width: 24.9999%;
+    }
+
+    .page-section {
+        margin: 7rem 12rem;
     }
 }

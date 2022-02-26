@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap-extensions.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
     <title>Vijiji Green</title>
 </head>
@@ -12,7 +13,8 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon border-0"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
@@ -26,92 +28,103 @@
             </div>
         </div>
     </nav>
-    <div class="row mt-2 py-2 rounded border-0">
-        <div id="page-heading" class="col-md-5 col-sm-6 mt-lg-5 mb-5 text-center">
-            <p class="h1-lg mb-0 pb-0" id="heading">Vijiji</p>
-            <p class="h1-lg mt-0 pb-0" id="heading">Green</p>
-        </div>
-        <div class="col-md-5 col-sm-6" id="mainImage" alt="Preparation of the nursery">
-        </div>
-    </div>
-    <div id="about" class="my-7 mx-3 px-3 py-2 rounded border-0 page-section">
-        <h1 class="mt-2 mb-3">who are we?</h1>
-        <p class="py-2">
-            VijijiGreen is a grass-root initiative whose goal is to promote sustainable practices in rural farming villages in Kenya. We take a holistic approach to sustainability by looking at the three major pillars: economic, social and environmental.
-        </p>
-        <p>
-            Our pilot project is based in Meru Kenya where we are working with subsistent farmers to improve their farming practices. Our goal is to promote agroforestry, afforestation and reforestation especially in the places that are now bare. We not only aim to tackle climate change but also to improve the livelihoods of the communities through improved ecosystems.
-        </p>
-    </div>
-    <div id="projects" class="my-7 mx-2 py-2 page-section text-center">
-        <h1 class="mt-2 mb-3">here's something cool we've been up to!</h1>
-        <div>
-            <h3 class="text-center mt-4 mb-3">The first make-shift nursery</h3>
-            <div class="my-5 mx-2 rounded">
-                <img class="img-fluid" src="./assets/images/originalNursery.jpg" alt="Preparation of the nursery">
-                <p class="text-center fs-8 py-3">The first make-do nursery bed. (August 2021) </p>
-            </div>
-        </div>
-        <div>
-            <h3 class="text-center mt-4 mb-3">The nursery Upgrade</h3>
-            <div class="my-5 mx-2 rounded">
-                <img class="img-fluid" src="./assets/images/Nursery.JPG" alt="Preparation of the nursery">
-                <p class="text-center fs-8 py-3">An upgrade of the nursery to increase germination and survival rate of the seedlings (September 2021)</p>
-            </div>
-        </div>
-        <div>
-            <h3 class="text-center mt-4 mb-3"> Transplanting the seedlings</h3>
-            <div class="my-5 mx-2 rounded">
-                <img class="img-fluid" src="./assets/images/rowseedling.JPG" alt="Preparation of the nursery">
-                <p class="text-center fs-8 py-3"> The seedlings are transplanted from the sowing bed to the potting bags (October, 2021)</p>
-            </div>
-        </div>
-        <div id="donate" class="my-7 mx-3 px-3 py-2 page-section">
-            <h1 class="mt-2 mb-3">donating is one easy way to increase our impact</h1>
-            <p>
-                Your financial contribution will help us:
-                <ul>
-                    <li>Continue rasing awareness and educating the community about the importance of trees</li>
-                    <li>Manage the expenses associated with the nurseries: labor, water, potting bags, forester consulation</li>
-                    <li>Buy seedlings from Kefri for the next planting round</li>
-                </ul>
+    <div class="w-100 row g-0">
+        <div class="col-md-5 col-sm-6 text-center my-auto" style="vertical-align: middle;">
+            <p class="h1-lg" style="vertical-align: middle; font-size: 6rem; font-weight: 500;">
+                Vijiji<br> Green
             </p>
-            <div>
-                <h2 class="text-center mt-4 mb-3">adopt a tree</h2>
-                <div class="image-wrapper my-5 mx-3 w-80 mx-auto rounded">
-                    <div class="image-with-caption">
-                        <img src="./assets/images/reuseNursery.jpg" alt="Seedlings" width="600" height="400">
-                            <form action="https://www.paypal.com/donate" method="post" target="_top">
-                                <input type="hidden" name="business" value="HSP588S975AD4" />
-                                <input type="hidden" name="no_recurring" value="0" />
-                                <input type="hidden" name="item_name" value="           " />
-                                <input type="hidden" name="currency_code" value="USD" />
-                                <p>Support VijijiGreen</p>
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                            </form>
-
-                    </div>
+        </div>
+        <div class="col-md-7 col-sm-6" id="mainImage" alt="Preparation of the nursery">
+        </div>
+    </div>
+    <div id="about" class="page-section">
+        <h1 class="mt-2 mb-3">Who are we?</h1>
+        <p class="py-2 text-start">
+            VijijiGreen is a grass-root initiative whose goal is to promote sustainable practices in rural farming villages in Kenya.
+            We take a holistic approach to sustainability by looking at the three major pillars: economic, social and environmental.
+        </p>
+        <p class="text-start">
+            Our pilot project is based in Meru Kenya where we are working with subsistent farmers to improve their farming practices.
+            Our goal is to promote agroforestry, afforestation and reforestation especially in the places that are now bare.
+            We not only aim to tackle climate change but also to improve the livelihoods of the communities through improved ecosystems.
+        </p>
+    </div>
+    <div id="projects" class="page-section">
+        <h1 class="mt-2 mb-3">Here's something cool we've been up to!</h1>
+        <div class="row row-cols-1 row-cols-lg-2 row-cols-xxl-4 mx-auto">
+            <div class="col">
+                <h4 class="text-center mt-4 mb-3">The first make-shift nursery</h4>
+                <div class="mt-5 mb-3 mx-2 rounded">
+                    <img class="img-fluid" src="./assets/images/originalNursery.jpg" alt="Preparation of the nursery">
+                    <p class="text-center fs-8 py-3">The first make-do nursery bed. (August 2021) </p>
                 </div>
-
+            </div>
+            <div class="col">
+                <h3 class="text-center mt-4 mb-3">The nursery upgrade</h3>
+                <div class="mt-5 mb-3 mx-2 rounded">
+                    <img class="img-fluid" src="./assets/images/Nursery.JPG" alt="Preparation of the nursery">
+                    <p class="text-center fs-8 py-3">
+                        An upgrade of the nursery to increase germination and survival rate of the seedlings. (September 2021)
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <h3 class="text-center mt-4 mb-3"> Transplanting the seedlings</h3>
+                <div class="mt-5 mb-3 mx-2 rounded">
+                    <img class="img-fluid" src="./assets/images/rowseedling.JPG" alt="Preparation of the nursery">
+                    <p class="text-center fs-8 py-3"> The seedlings are transplanted from the sowing bed to the potting bags. (October 2021)</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-center mt-4 mb-3 mx-2">Our seedlings ready for pickup by community and institutions</h3>
+                <div class="my-5 mx-2 rounded">
+                    <img class="img-fluid" src="./assets/images/readySeedlings.jpeg" alt="Preparation of the nursery">
+                    <p class="text-center fs-8 py-3">More than 15,000 seedlings of 7 different trees are ready to be planted during the March-May rainy season (January, 2022)</p>
+                </div>
+            </div>
+            <h5 class="mx-auto">
+                <a href="#contact">See the contact section to learn how to reach us and have seedlings delivered to you.</a>
+            </h5>
+        </div>
+    </div>
+    <div id="donate" class="page-section">
+        <h1 class="mt-2 mb-3">donating is one easy way to increase our impact</h1>
+        <div class="mx-auto text-center">
+            <p class="fw-bold">Your financial contribution will help us:</p>
+            <ol class="mx-auto w-lg-50 text-start">
+                <li>Continue rasing awareness and educating the community about the importance of trees</li>
+                <li>Manage the expenses associated with the nurseries: labor, water, potting bags, forester consulation</li>
+                <li>Buy seedlings from Kefri for the next planting round</li>
+            </ol>
+        </div>
         <div>
-            <h3 class="text-center mt-4 mb-3 mx-2">Our seedlings ready for pickup by community and institutions</h3>
-            <div class="my-5 mx-2 rounded">
-                <img class="img-fluid" src="./assets/images/readySeedlings.jpeg" alt="Preparation of the nursery">
-                <p class="text-center fs-8 py-3">More than 15,000 seedlings of 7 different trees are ready to be planted during the March-May rainy season (January, 2022)</p>
+            <h2 class="text-center mt-4 mb-3">adopt a tree</h2>
+            <div class="image-wrapper my-5 mx-3 w-auto mx-auto rounded">
+                <div class="image-with-caption mx-auto">
+                    <img src="./assets/images/reuseNursery.jpg" alt="Seedlings">
+                    <form action="https://www.paypal.com/donate" method="post" target="_top">
+                        <input type="hidden" name="business" value="HSP588S975AD4" />
+                        <input type="hidden" name="no_recurring" value="0" />
+                        <input type="hidden" name="item_name" value="           " />
+                        <input type="hidden" name="currency_code" value="USD" />
+                        <p>Support VijijiGreen</p>
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-    <div id="team" class="my-7 mx-2 py-2 page-section text-center">
+    <div id="team" class="page-section">
         <h1 class="mt-2 mb-3">behind the scenes...</h1>
         <div class="my-5 mx-2 rounded">
             <img class="img-fluid" src="./assets/images/soilPrep.jpg" class="img-thumbnail" alt="Elaine Muthoni">
         </div>
         <p>
-            Elaine is a masters student at Lund University ans is passionate about sustainability. This project is her dream child of promoting awareness about climate change and encouraging reforestation and afforestation in her local community.
+            Elaine is a masters student at Lund University and is passionate about sustainability. This project is her dream child of promoting awareness about climate change and encouraging reforestation and afforestation in her local community.
         </p>
     </div>
-    <div id="contact" class="mt-7 mx-2 py-2 page-section text-center">
+    <div id="contact" class="page-section">
         <h1 class="mt-2 mb-3">get in touch, we're very chatty about VijijiGreen</h1>
         <div>
             <div id="contact" class="col-12 col-md-7 col-xl-5 align-items-center text-center px-1 py-xl-4 mx-auto">
