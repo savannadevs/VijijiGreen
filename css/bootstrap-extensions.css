@@ -1,0 +1,48 @@
+/* BOOTSTRAP EXTENSIONS */
+.w-80 {
+    width: 80%;
+}
+
+
+.fs-8 {
+    font-size: small;
+}
+
+.h1-lg {
+    font-size: 5em;
+}
+
+.mt-7 {
+    margin-top: 7rem;
+}
+
+.my-7 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .w-lg-50 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

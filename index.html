@@ -19,11 +19,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link"  aria-current="page" href="#about">about</a>
-                    <a class="nav-link" href="#projects">projects</a>
-                    <a class="nav-link" href="#donate">donate</a>
-                    <a class="nav-link" href="#team">team</a>
-                    <a class="nav-link" href="#contact">contact</a>
+                    <li class="nav-item mx-lg-4 fs-3"> <a class="nav-link" style="color: rgb(56, 14, 14);"  aria-current="page" href="#about">about</a></li>
+                    <li class="nav-item mx-lg-4 fs-3"> <a class="nav-link" style="color: rgb(56, 14, 14);" href="#projects">projects</a></li>
+                    <li class="nav-item mx-lg-4 fs-3"> <a class="nav-link" style="color: rgb(56, 14, 14);" href="#donate">donate</a></li>
+                    <li class="nav-item mx-lg-4 fs-3"> <a class="nav-link" style="color: rgb(56, 14, 14);" href="#team">team</a></li>
+                    <li class="nav-item mx-lg-4 fs-3"> <a class="nav-link" style="color: rgb(56, 14, 14);" href="#contact">contact</a></li>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
         <h1 class="mt-2 mb-3">get in touch, we're very chatty about VijijiGreen</h1>
         <div>
             <div id="contact" class="col-12 col-md-7 col-xl-5 align-items-center text-center px-1 py-xl-4 mx-auto">
-                <form id="contact-form" data-toggle="validator" action="./contact/contact.php" role="form" method="POST">
+                <form id="contact-form" data-toggle="validator" action="https://plhcmaua.com/vgg_send_email" role="form" method="post" onsubmit="setTimeout(function () {window.location.reload(); }, 5)" target="_blank">
                     <div class="messages">
                     </div>
                     <div class="controls">
@@ -165,7 +165,7 @@
                                 </div>
                             </div>
                             <div class="button col-md-12">
-                                <div class="g-recaptcha mt-2 mb-3" id="g-recaptcha-1"></div>
+                                <div class="g-recaptcha mt-2 mb-3" id="g-recaptcha-1" data-sitekey="6LdVonQdAAAAABAuA01EKhICQbVaAUIzGWJCLE47"></div>
                                 <br>
                                 <input type="submit" class="btn send-button btn-lg" value="Send message">
                             </div>
@@ -183,7 +183,7 @@
     <p class="text-center">Savanna Devs 2022</p>
 </div>
 <script src="./scripts/bootstrap.bundle.min.js"></script>
-<!-- <script src="./scripts/recaptcha.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script> -->
+<script src="./scripts/recaptcha.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 </body>
 </html>

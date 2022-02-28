@@ -1,5 +1,11 @@
+.hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
+
 body, body > *, .navbar-light {
     background-color: #EEF3EE;
+}
+
+.navbar-nav > li:hover {
+    background-color: rgb(221, 136, 136);
 }
 
 .page-section {
